@@ -1,8 +1,8 @@
-# Data Structures & Algorithms Library 📚
+# Data Structures & Algorithms Library 
 
 A comprehensive Java library implementing fundamental algorithms and data structure operations. This project demonstrates proficiency in algorithmic thinking, time complexity analysis, and clean code practices.
 
-## 🚀 Features
+## Features
 
 This library includes implementations of essential algorithms across different categories:
 
@@ -11,7 +11,7 @@ This library includes implementations of essential algorithms across different c
 - **Matrix Operations**: Matrix multiplication, Gaussian elimination
 - **Mathematical Computations**: Factorial, binary representations
 
-## 📋 Algorithm Implementations
+## Algorithm Implementations
 
 ### 1. Binary Digit Counter
 **Files**: `countBinaryDigitsRecursive()`, `countBinaryDigits()`
@@ -88,7 +88,7 @@ boolean isUnique = Algorithms.hasUniqueElements(intArray);
 Algorithms.gaussianElimination(augmentedMatrix); // Modifies matrix in-place
 ```
 
-## 🛠️ Usage
+## Usage
 
 ### Prerequisites
 - Java 8 or higher
@@ -118,7 +118,7 @@ int binaryDigits = Algorithms.countBinaryDigits(42);
 double max = Algorithms.findMaxElement(myArray);
 ```
 
-## 🧪 Testing Features
+## Testing Features
 
 The interactive main class includes comprehensive testing for:
 - **Input Validation**: Handles negative numbers, null arrays, empty inputs
@@ -126,7 +126,7 @@ The interactive main class includes comprehensive testing for:
 - **Edge Cases**: Zero values, single elements, large numbers
 - **User Experience**: Clear prompts and informative output
 
-## 📊 Time Complexity Summary
+## Time Complexity Summary
 
 | Algorithm | Best Case | Average Case | Worst Case | Space |
 |-----------|-----------|--------------|------------|-------|
@@ -138,7 +138,7 @@ The interactive main class includes comprehensive testing for:
 | Unique Elements | O(n) | O(n²) | O(n²) | O(1) |
 | Gaussian Elimination | O(n³) | O(n³) | O(n³) | O(1) |
 
-## 🎯 Learning Objectives Demonstrated
+## Learning Objectives Demonstrated
 
 This project showcases understanding of:
 - **Algorithm Design**: Recursive vs iterative approaches
@@ -148,7 +148,7 @@ This project showcases understanding of:
 - **Documentation**: Comprehensive comments and user guidance
 - **Mathematical Algorithms**: Linear algebra and number theory applications
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 Potential improvements and additions:
 - **Sorting Algorithms**: QuickSort, MergeSort, HeapSort implementations
@@ -158,14 +158,14 @@ Potential improvements and additions:
 - **Performance Benchmarking**: Timing comparisons between algorithms
 - **Unit Testing**: JUnit test suite for automated testing
 
-## 📝 Notes
+## Notes
 
 - All algorithms include proper input validation and error handling
 - Matrix operations assume square matrices for simplicity
 - Gaussian elimination includes basic pivoting but could be enhanced with full pivoting
 - The library prioritizes educational clarity over maximum optimization
 
-## 👨‍💻 About
+## About
 
 This library was developed as part of computer science coursework to demonstrate proficiency in:
 - Algorithm implementation and analysis
@@ -176,4 +176,4 @@ This library was developed as part of computer science coursework to demonstrate
 
 ---
 
-*Feel free to explore, test, and build upon these implementations. Happy coding! 🚀*
+*Feel free to explore, test, and build upon these implementations.*
